@@ -6,7 +6,7 @@ def deal_card
   1 + Random.rand(11)
 end
 
-def display_card_total
+def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
 end
 
@@ -19,7 +19,7 @@ def get_user_input
 end
 
 def end_game
-  # code #end_game here
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
